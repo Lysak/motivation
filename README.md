@@ -2,7 +2,7 @@ Motivation
 ========
 Your age.
 
-With ubuntu font and default chrome incognito mode color
+With ubuntu font and default Chrome incognito mode color
 
 For Chrome add add-on from [chromewebstore.google.com](https://chromewebstore.google.com/detail/motivation/aliachjmgkelibfecomdccomahgpople "https://chromewebstore.google.com/detail/motivation/aliachjmgkelibfecomdccomahgpople")
 

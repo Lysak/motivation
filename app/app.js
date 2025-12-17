@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Check for global animation disable setting
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.sync) {
+        chrome.storage.sync.get({ allAnimationsDisabled: false }, function (items) {
+            if (items.allAnimationsDisabled) {
+                document.body.classList.add('no-animations');
+            }
+        });
+    }
+
     let localStorageData, parsingData;
 
     localStorageData = localStorage.getItem('birthdayDate');
